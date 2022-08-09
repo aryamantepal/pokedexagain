@@ -143,3 +143,8 @@ h3 {
   min-width: 50%;
   margin-top: 1rem;
 }
+
+/*center the title*/
+.title {
+  text-align: center;
+}

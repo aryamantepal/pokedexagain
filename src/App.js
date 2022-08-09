@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import PokemonThumbnail from './PokemonThumbnail'
+//import index.css
+import './index.css'
 
 const App = () => {
 
@@ -29,7 +31,7 @@ const App = () => {
 
   return (
     <div className="app-contaner">
-      <h1>Pokemon Evolution</h1>
+      <h1 className = "title">Aryaman's very average pokedex</h1>
       <div className="pokemon-container">
         <div className="all-container">
           {allPokemons.map( (pokemonStats, index) => 
