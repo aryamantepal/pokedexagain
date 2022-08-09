@@ -12,38 +12,64 @@ code {
     monospace;
 }
 .rock {
-  background-color: rgb(148, 81, 81);
+  background-color: #B6A136;
 }
-
 .ground{
-  background-color: #d47b4a;
-}
-.ghost {
-  background-color: rgb(247, 247, 247);
+  background-color: #E2BF65;
 }
 .electric {
-  background-color: rgb(255, 255, 161);
+  background-color: #F7D02C;
 }
 .bug {
-  background-color: #F6D6A7;
+  background-color: #A6B91A;
+}
+.ghost{
+  background-color: #735797;
 }
 .poison {
-  background-color: #e0a7f6;
+  background-color: #A33EA1;
 }
 .normal {
   background-color: #F4F4F4;
 }
 .fairy {
-  background-color: rgba(255, 192, 203, 0.863);
+  background-color: #D685AD;
 }
+.flying{
+  background-color:#A98FF3;
+}
+.psychic{
+  background-color: #F95587;
+}
+.dragon{
+  background-color:#6F35FC;
+}
+.dark{
+  background-color:#705746;
+}
+
 .fire {
-  background-color: #FBE3DF;
+  background-color: #EE8130;
 }
 .grass {
-  background-color:#E2F9E1;
+  background-color:#7AC74C;
 }
 .water {
-  background-color:#E0F1FD;
+  background-color:#6390F0;
+}
+.ice{
+  background-color: #96D9D6;
+}
+
+.normal{
+  background-color: #A8A77A;
+}
+.fighting{
+  background-color: #C22E28;
+}
+
+.steel{
+  background-color:#B7B7CE; 
 }
 
 .app-container {
