@@ -1,7 +1,7 @@
 import React from 'react'
 
 const PokemonThumbnail = ({id, name, image, type}) => {
-    const style = `thumb-container ${type}`
+  const style = `thumb-container ${type}`
   return (
     <div className = {style}>
         <div className = "number">

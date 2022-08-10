@@ -30,7 +30,7 @@ const App = () => {
  }, [])
 
   return (
-    <div className="app-contaner">
+    <div className="app-container">
       <h1 className = "title">Aryaman's very average pokedex</h1>
       <div className="pokemon-container">
         <div className="all-container">
@@ -44,7 +44,7 @@ const App = () => {
             />)}
           
         </div>
-          <button className="load-more" onClick={() => getAllPokemons()}>Load more</button>
+          <button className="load-more btn btn-primary" onClick={() => getAllPokemons()}>Load more</button>
       </div>
     </div>
   );

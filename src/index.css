@@ -148,3 +148,8 @@ h3 {
 .title {
   text-align: center;
 }
+
+/* if the thumb container is hovered over expand it*/
+.thumb-container:hover {
+  transform: scale(1.4);
+}
