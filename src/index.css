@@ -153,3 +153,8 @@ h3 {
 .thumb-container:hover {
   transform: scale(1.4);
 }
+
+/* if the thumb container is hovered over, change the mouse cursor to a pointer*/
+.thumb-container:hover {
+  cursor: pointer;
+}
